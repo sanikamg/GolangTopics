@@ -1,0 +1,4 @@
+In Go, we use defer, panic and recover statements to handle errors.
+
+We use defer to delay the execution of functions that might cause an error. 
+The panic statement terminates the program immediately and recover is used to recover the message during panic.
