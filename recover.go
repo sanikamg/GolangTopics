@@ -11,8 +11,8 @@ import "fmt"
 func main() {
 
 	Div(1, 2)
-	Div(6, 3)
-	Div(5, 0)
+	Div(6, 0)
+	Div(5, 7)
 	Div(9, 0)
 }
 
