@@ -14,7 +14,6 @@ func main() {
 //When we use multiple defer in a program, the order of execution of the defer statements will be LIFO (Last In First Out).
 
 func MultipleDefer() {
-	defer fmt.Println("a")
-	defer fmt.Println("b")
+
 	defer fmt.Println("c")
 }
