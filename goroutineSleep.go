@@ -23,7 +23,7 @@ func main() {
 
 	// call function with goroutine
 	go display("Process 1")
-	go display("Process 1")
+
 	display("Process 2")
 
 }
