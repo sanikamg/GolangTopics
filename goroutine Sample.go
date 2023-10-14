@@ -2,18 +2,26 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
-// create a function
-func display(message string) {
-
-	fmt.Println(message)
+// Prints numbers from 1-3 along with the passed string
+func foo(s string) {
+	for i := 1; i <= 3; i++ {
+		time.Sleep(100 * time.Millisecond)
+		fmt.Println(s, ": ", i)
+	}
 }
 
 func main() {
 
-	// call goroutine
-	go display("Process 1")
+	fmt.Println("Main started...")
 
-	display("Process 2")
+	// Starting two goroutines
+	go foo("1st goroutine")
+	go foo("2nd goroutine")
+
+	// Wait for goroutines to finish before main goroutine ends
+	time.Sleep(time.Second)
+	fmt.Println("Main finished")
 }
