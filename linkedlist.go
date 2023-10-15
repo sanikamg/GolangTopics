@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"os"
 )
 
 type LinkedList struct {
@@ -45,32 +44,11 @@ func (node *LinkedList) insertBegin(num int) {
 
 func main() {
 	head := new(LinkedList)
-	var choice int
-	for true {
-		fmt.Println("\nEnter your choice : ")
-		fmt.Println("1.insert value")
-		fmt.Println("2:inser begin of the list")
-		fmt.Println("3.Display value")
-		fmt.Println("4.Exit")
-		fmt.Scan(&choice)
-		switch choice {
-		case 1:
-			var data int
-			fmt.Println("Enter your value : ")
-			fmt.Scan(&data)
-			head.insert(data)
 
-		case 2:
-			var num int
-			fmt.Println("Enter your value : ")
-			fmt.Scan(&num)
-			head.insertBegin(num)
-		case 3:
-			head.Display()
-
-		default:
-			os.Exit(0)
-
-		}
+	num := []int{1, 2, 3, 4, 5}
+	for i := 0; i < len(num); i++ {
+		head.insert(num[i])
 	}
+	head.Display()
+
 }
