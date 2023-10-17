@@ -43,8 +43,8 @@ func (node *LinkedList) insertBegin(num int) {
 }
 
 func main() {
+	//initialize linked list
 	head := new(LinkedList)
-
 	num := []int{1, 4, 5, 6, 7}
 	for i := 0; i < len(num); i++ {
 		head.insert(num[i])
