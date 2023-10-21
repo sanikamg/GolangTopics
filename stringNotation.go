@@ -10,4 +10,5 @@ func main() {
 	fmt.Println(str1)
 	k := len(str)
 	fmt.Println(str[2:k])
+	fmt.Println(str[2:len(str)])
 }
