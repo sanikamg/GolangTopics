@@ -18,7 +18,10 @@ func main() {
 	sort.Slice(arr, func(i, j int) bool {
 		return arr[i][1] > arr[j][1]
 	})
+	arr1 := make([][]int, len(arr))
+	//to make copy of an array
+	copy(arr1[:], arr[:])
 
 	// Print the sorted array
-	fmt.Println(arr)
+	fmt.Println(arr, arr1)
 }
