@@ -16,4 +16,7 @@ func main() {
 	replacedText := strings.Replace(text, "r", "t", 2)
 
 	fmt.Println("New String:", replacedText)
+
+	str := "123"
+	fmt.Println(string(str[0]))
 }
