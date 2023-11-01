@@ -55,6 +55,8 @@ func main() {
 
 	fmt.Println(array[4])
 	fmt.Println(array)
+
+	
 }
 
 //String
