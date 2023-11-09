@@ -1,0 +1,7 @@
+2. for loop with a single condition:
+> You can omit the initialization and post-statement, creating a loop with just a condition. 
+    This acts like a while loop in other programming languages.
+> syntax : 
+for condition {
+    // Code to be executed
+}

@@ -1,0 +1,4 @@
+3. Infinite loop:
+
+> You can create an infinite loop by omitting all three components. 
+  You'll need to use a break statement to exit the loop when a certain condition is met.
