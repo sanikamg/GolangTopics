@@ -1,0 +1,6 @@
+1. Basic for loop:
+> The basic for loop has three components: initialization, condition, and post-statement.
+> syntax : 
+> for initialization; condition; post-statement {
+    // Code to be executed
+    }
