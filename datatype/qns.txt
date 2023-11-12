@@ -1,0 +1,5 @@
+Create a program that calculates the area of a rectangle given its length and width.
+Write a program that converts Fahrenheit to Celsius.
+Implement a function that reverses a string.
+Create a program that checks if a given number is even or odd.
+Write a program that simulates a simple login system. Ask the user for a username and password and validate them.
